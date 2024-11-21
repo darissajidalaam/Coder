@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Galada&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <H1>Coder</H1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#Services">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="landing">
+        <div>
+            <h1>Best Solution for Your Business Problem</h1>
+            <p>We are passionate coder who will design and develop best solution for your</p>
+            <a href="#about" class="btn btn-alt">More Info</a>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+        <div>
+            <img src="Coder/images/landing.png" alt="landing.png">
+        </div>
+    </section>
+
+    <section id="about">
+        <div>
+            <img src="Coder/images/about.png" alt="about.png">
+        </div>
+        <div>
+            <h1>We are the best in out field</h1>
+            <p>For the 5 years we always give the best to our client and we will always be the best</p>
+            <div id="about-stats">
+                <div class="about-stats-item">
+                    <h1>100+</h1>
+                    <div></div>
+                    <p>Experts</p>
+                </div>
+                <div class="about-stats-item">
+                    <h1>300+</h1>
+                    <div></div>
+                    <p>Clients</p>
+                </div>
+                <div class="about-stats-item">
+                    <h1>500+</h1>
+                    <div></div>
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Services">
+        <div class="service-header">
+            <div>
+                <h1>Our Services</h1>
+                <p>We have the best service to solve your problem</p>
+            </div>
+            <div>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+        <div class="service-detail">
+            <div class="service-detail-item">
+                <img src="Coder/images/service1.png" alt="service1">
+                <h2>Web Application</h2>
+                <p>Web application can be your best and easiest solution for your problem that can be acces anywhere</p>
+            </div>
+            <div class="service-detail-item">
+                <img src="Coder/images/service2.png" alt="service2">
+                <h2>UI/UX Design</h2>
+                <p>We create the best design based on problem we analys and give the best experience to user</p>
+            </div>
+            <div class="service-detail-item">
+                <img src="Coder/images/service3.png" alt="service3">
+                <h2>Mobile Application</h2>
+                <p>Mobile application can be your best solution for the easy acces application where everybody have a
+                    phone </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us now and get your problem solved</p>
+        <div class="contact-detail">
+            <form action="">
+                <h1>Tell us your problem</h1>
+                <div class="form-group">
+                    <div id="input-name" class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div id="input-subject" class="input-group">
+                        <label for="name">Subject</label>
+                        <input type="text" placeholder="Your Subject">
+                    </div>
+                    <div id="input-email" class="input-group">
+                        <label for="name">Email</label>
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <div id="input-phone" class="input-group">
+                        <label for="name">Phone Number</label>
+                        <input type="tel" placeholder="Your Phone Number">
+                    </div>
+                    <div id="input-message" class="input-group">
+                        <label for="name">Message</label>
+                        <input type="text" placeholder="Write your message">
+                    </div>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+            <div>
+                <h1>Our Location</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8281.653630701037!2d110.8008580361423!3d-7.52943848023669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a179e2071d261%3A0xd5829d1ae9bb5937!2sD%40risComp%20Bengkel%20Laptop%20Notebook%20Komputer%20Free%20Wifi!5e1!3m2!1sid!2sid!4v1731637302619!5m2!1sid!2sid"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            </div>
+    </section>
+ 
+    <footer id="footer">
+        <div>
+            <h1>Coder</h1>
+            <p>Software house based in Indonesia experts in ui/ux design, web apps, and mobile apps.</p>
+        </div>
+        <div class="social-icon">
+            <img src="Coder/images/Facebook.svg" alt="Facebook">
+            <img src="Coder/images/Instagram.svg" alt="Instagram">
+            <img src="Coder/images/Twitter.svg" alt="Twitter">
+        </div>
+    </footer>
+</body>
+
+</html>
